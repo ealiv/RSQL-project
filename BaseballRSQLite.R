@@ -1,5 +1,4 @@
 library("RSQLite")
-library('tidyverse')
 
 db = dbConnect(SQLite(), "/Users/erbolaliev/Downloads/lahman2016.sqlite")
 
